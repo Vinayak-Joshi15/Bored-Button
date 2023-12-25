@@ -1,0 +1,1 @@
+	<a class = "button" href="randomsite.HTML">Bored? click this</a>

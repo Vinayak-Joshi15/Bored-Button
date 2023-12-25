@@ -1,0 +1,30 @@
+<html>
+<head>
+<script type="text/javascript">
+
+<!--
+// Create an array of the links to choose from:
+
+var links = new Array();
+
+links[0] = "https://www.coolmathgames.com/0-retro-ping-pong"; // Retro ping pong 
+links[1] = "https://www.coolmathgames.com/0-swing-monkey"; // swing monkey
+links[2] = "https://www.coolmathgames.com/0-foxbot"; // foxbot
+links[3] = "https://www.coolmathgames.com/0-iq-ball";// iq ball
+links[4] = "https://www.coolmathgames.com/0-powerline-io" // powerline.io
+function openLink() {
+  
+  // Chooses a random link:
+  var i = Math.floor(Math.random() * links.length);
+  
+  // Directs the browser to the chosen target:
+  parent.location = links[i];
+  return false;
+}
+
+//-->
+</script>
+</head>
+<body onload="openLink();">
+</body>
+</html>
